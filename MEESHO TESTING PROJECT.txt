@@ -1,0 +1,117 @@
+                                                                                                           **MEESHO TESTING PROJECT**
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EPIC:
+
+  SEARCHING THE PROCDUCT AND APPLYING THE FILTERS
+
+1.User Story:  As a  user  I need to search a product so that I can view more details and choose the product.
+
+        **GIVEN**  The user in the homepage
+
+        **WHEN**  The user Search the product in the search box and  hit the search button
+
+        **THEN** The Searched product should display
+
+
+
+
+Acceptance Criteria :
+ 
+        1.he search box is visible on the homepage
+        2.The user can type a product name in the search box
+        3.Clicking the search button and then search.
+        4.Products matching the keyword are displayed on the results page
+        5.If no products match the system shows a No results found message
+
+
+2.User Story: As a user, I need to filter the  options (Ratings) so that I can narrow down the product list and find the items that best match my product.
+
+       GIVEN user   is viewing a list of products
+       WHEN the user selects a rating filter ( 4 stars & above)
+       THEN system should display only the products that match the selected rating
+
+
+Acceptance Criteria:
+ 
+        1.he filter panel with rating options is visible on the product listing page
+        2.The user can select one or more rating filters(Ex.3 stars || above 4 stars || Above)
+        3.Once a rating filter is selected the product list updates automatically or after clicking apply
+        4.Only products that meet the selected rating conditions  are displayed
+        5.If no products meet the filter condition a No products found message is shown
+
+3.User Story: As a user, I need the ability to clear all  the filters I have applied so that I that I can return to viewing the full product list.
+
+        GIVEN the user has applied one or more filters (rating) on the product list
+        WHEN the user clicks on the Clear All Filters button
+       THEN the system should remove all applied filters
+        AND display the full list of products
+
+Acceptance Criteria:
+
+        1**.**The Clear All Filters button is visible when any filter is applied
+
+        2.Clicking the button removes all active filters (rating).
+        3.The product list refreshes to show all available products.
+        4.Any previously applied filter selections are reset.
+        5.If no filters were applied, the button is either disabled or has no effect.
+
+4.User Story: As a user, I need my recently searched products to be displayed in the search bar so that I can quickly revisit them without searching again.
+
+       **GIVEN** The user has searched for products before
+
+       **WHEN** The user opens the search bar or search history
+
+       **THEN** The screen should display a list of recently searched products
+
+
+
+
+
+
+
+Acceptance Criteria:
+        1**.**The system stores the user’s recent searches (e.g., last 5–10 products).
+         2.When the user clicks  on the search bar, the recent searches are displayed.
+        3.Each item in the recent search list is clickable and takes the user to the product detail or search results page.
+        4.If there are no previous searches, the system displays an empty state or suggestion message.
+        5.The recent search list updates dynamically with each new search.
+
+5.User Story :As a user, I want to click a discount button to see recent  discounts product so that I can get the best offers while shopping.
+
+       **GIVEN** The user is browsing products
+
+       **WHEN** The user clicks on the Discount button
+
+       **THEN** The system should display all products with recent discounts
+
+
+
+
+Acceptance Criteria:
+
+1.The Discount button is visible on the product listing page.
+2.Clicking the button filters the products to show only those with active discounts.
+3.Each discounted product clearly displays the original price, discounted price, and discount percentage.
+4.The system updates the product list immediately after the button is clicked.
+5.If no products have discounts, a “No discounted products available” message is displayed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+GIVEN The list of product that sriram is viewing
+WHEN  sriram select the filter option
+THEN The filtered product should only display
+GIVEN The sriram applied product list
+WHEN sriram click the clear button
+THEN The web page should display all the product in pervious way
